@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" 
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+
+    <!-- faltaba donde tienes tus métodos de JS-->
+    <script src="boton.js"></script>
+
+
+
+</head>
+<body>
+    
+    <!-- MENU ENCABEZADO -->
+    
+        <div class="dropdown fixed-top">
+            <header>
+                <div class="logo">
+                    <a href="#">EDER</a>
+                </div>
+
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="bi bi-arrow-down-circle"></i>
+                </button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+            <li><a class="dropdown-item active" href="#inicio">INICIO</a></li>
+            <li><a class="dropdown-item" href="#sobremi">SOBRE MÍ</a></li>
+            <li><a class="dropdown-item" href="#portafolio">PORTAFOLIO</a></li>
+            <li><a class="dropdown-item" href="#habilidades">HABILIDADES</a></li>
+            <li><a class="dropdown-item" href="#form">CONTACTO</a></li>
+            </ul>
+            </header>
+      </div>
+    
+
+      <!-- <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">EDER</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#habilidades" onclick="seleccionar()">HABILIDADES</a></li>
+                   
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div> -->
+
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/A.png" alt="">
+            </div>
+            <h1>Eder Carrillo.</h1>
+            <h2>Estudiante de Bachillerato especializado en Programacion.</h2>
+            <div class="redes">
+                <a href="https://wa.me/5581202990"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://workspace.google.com/"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://www.google.com.mx/maps/place/Congreso+de+la+Uni%C3%B3n+C%C3%A1mara+de+Diputados/@19.4303318,-99.1203485,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1feb3f2c8b259:0xe6469da11a6d4d36!8m2!3d19.4303318!4d-99.1177736!16s%2Fg%2F12xqjg8g2?entry=ttu"><i class="fa-solid fa-map-location"></i></a>
+                <a href="https://mail.google.com/chat/u/0/#chat/home"><i class="fa-brands fa-google-drive"></i></a>
+                <a href="https://instagram.com/eder_carrill0?igshid=MzMyNGUyNmU2YQ%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <h1><p><span>Hola, soy Eder Carrillo.</span> <br></h1> 
+                Estudiante del Centro de Estudios Tecnológicos Industrial y de Servicios No. 54 “Guadalupe Victoria”, 
+                actualmente en 5to semestre. <br>
+               Hoy en día estoy realizando mi Servicio Social en la "CAMARA DE DIPUTADOS" ahí estoy aprendiendo temas de programación <br>
+               (Creador de paginas web, registros, etc.)<br>
+               Nombre Completo: Carrillo Brun Eder Yanik.<br>
+               Edad: 17 años.<br>
+               Fecha De Nacimiento: 28/02/2006.<br>
+               <br>
+
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales:</h3>
+                    <ul>
+                        <li>
+                            <strong>Fecha de Nacimiento:</strong>
+                            28/02/2006
+                        </li>
+                        <li>
+                            <strong>Teléfono:</strong>
+                            55-81-20-29-90
+                        </li>
+                        <li>
+                            <strong>Gmail:</strong>
+                            ceder7768@gmail.com
+                        </li>
+                        <li>
+                            <strong>Instagram:</strong>
+                            eder_carrill0       
+
+                        </li>
+                        <li>
+                            <strong>Dirección:</strong>
+                            Sanfelipe de Jesus, CDMX.
+                        </li>
+                        <li>
+                            <strong>Cargo:</strong>
+                            Estudiante
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-project-diagram"></i>
+                            <span>DIAGRAMAS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-music"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car-tunnel"></i>
+                            <span>COCHES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+
+            <a href="https://drive.google.com/drive/folders/1Zb_JVH_BmVOIF_UwHQ2v7voq68vQO_OL?usp=drive_link    " download="PortafolioCv.pdf">
+                
+                        Descargar CV <i class="fa-solid fa-download"></i>
+                        <span class="overlay"></span>
+                </button>
+            </a>
+
+            
+        </div>
+    </section>
+
+        <!-- SECCION portafolio -->
+
+        <section id="portafolio" class="portafolio">
+            <div class="contenido-seccion">
+                <h2>PORTAFOLIO</h2>
+                <h1><p><span> Experiencia Laboral.</span> <br></h1> 
+                   
+                   <p style="text-align: justify;">
+                    Anteriormente, estudiaba con mi mamá su carrera de Marketing, ahí fue cuando me empezó a gustar ese ambiente de trabajo. 
+                    Después, por mi cuenta, me inscribí en un curso llamado "GOODHABITZ". Ahí aprendí a comunicarme mejor, sobre todo, aprendí a vender (en línea).
+                    <br><br>
+                    Esta carrera está especializada en Mercadotecnia y Ventas. Después de estudiar por un tiempo, lo empecé a poner a prueba y así comencé a trabajar en línea.
+                    <br><br>
+                            Despúes trabajé por mi cuenta, yo mismo realizaba las entregas en algún punto intermedio y trabajé haciendo "dropshipping" en plataformas como 
+                            Mercado Libre, Amazon, pero principalmente, la que me funcionó más fue Macketplace.
+                    <br><br>
+                    Comencé a elaborar carteles, trípticos, tarjetas de presentación, anuncios, etc.
+                    <br><br>
+                    Por ahora, estoy haciendo mi servicio social en la Cámara de Diputados. Mi objetivo principal al terminar sería abrir una tienda virtual para vender mis productos.
+                    <br><br>
+                    El año anterior, trabajé en una agencia aduanal, cuyo nombre de la empresa era "FERCA". Ahí aprendí cómo vender a empresas, elaborar gráficas.
+                    Tengo buen dominio de PowerPoint y Word. Aprendí a realizar cheques, manejar coches, cargar camiones y a elaborar pedimentos.
+                </p>
+
+            </section>
+
+            <!-- seccion habilidades -->
+
+                   <section id="habilidades" class="habilidades">
+                    <div class="contenido-seccion">
+                        <h2>Habiilidades</h2>
+                       
+                      </div>
+                      <br><br>
+
+                      <div class="contenido"> 
+                        <div class="skill">
+                        <p><span>Marketing</span>90%</p>
+                        <div class="progress" style="--wth:90%"></div>
+                    </div>
+                 
+                        <div class="skill">
+                        <p><span>Word</span>90%</p>
+                        <div class="progress" style="--wth:90%"></div>
+                    </div>
+
+                    <div class="skill">
+                        <p><span>PowerPoint</span>90%</p>
+                        <div class="progress" style="--wth:90%"></div>
+                    </div>
+
+                    <div class="skill">
+                        <p><span>Publicidad</span>90%</p>
+                        <div class="progress" style="--wth:90%"></div>
+                    </div>
+
+                    <div class="skill">
+                        <p><span>Photoshop</span>80%</p>
+                        <div class="progress" style="--wth:80%"></div>
+                    </div>
+
+                    <div class="skill">
+                        <p><span>JavaScript</span>60%</p>
+                        <div class="progress" style="--wth:60%"></div>
+                    </div>
+
+                    <div class="skill">
+                        <p><span>html</span>60%</p>
+                        <div class="progress" style="--wth:60%"></div>
+                    </div>
+
+                    <div class="skill">
+                        <p><span>CSS</span>60%</p>
+                        <div class="progress" style="--wth:60%"></div>
+                    </div>
+
+                    
+                    <!-- boton para inicio -->
+                    <button onclick="backToTop()" id="myBtn" title="Ir arriba">volver</button>
+                   
+
+
+                  </section>
+
+                  <!-- seccion FORMULARIO -->
+
+                  <section id="form" class="form">
+                    <div class="contenido-formulario">
+
+                        <form action="https://formsubmit.co/eder.carrillox@gmail.com" method="POST">
+                            <h2>Contacto</h2> 
+                        <div class="input-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" name="name" id="name" placeholder="Nombre" >
+                            <label for="phone">Telefono</label>
+                            <input type="tel" name="phone" id="phone" placeholder="Telefono" > 
+                            <label for="email">Gmail</label>
+                            <input type="email" name="email" id="email" placeholder="Gmail"> 
+                            <label for="message">Mensaje</label>
+                            <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje"></textarea>
+
+                        <div class="form-txt">
+                            <a href="#">Politica de privacidad.</a> 
+                            <a href="#">°    Terminos y condiciones.</a>
+                        </div>
+                            <input class="btns" type="submit" value="Enviar" >
+
+                            <input type="hidden" name="_next" value="https://phenomenal-croissant-0b6d05.netlify.app">
+                            <input type="hidden" name="_captcha" value="false">
+                        </div>
+                         </form>
+                         
+
+                  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+                  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+                  
+</body>
+</html>
